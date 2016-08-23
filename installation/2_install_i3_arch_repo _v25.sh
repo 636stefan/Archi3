@@ -41,7 +41,7 @@
 
 ######## A C C E S S O R I E S #########
 
-sudo pacman -S terminator 
+sudo pacman -S termite 
 
 sudo pacman -S unclutter ristretto
 
@@ -69,9 +69,8 @@ sudo pacman -S gnome-font-viewer
 
 ######## I N T E R N E T       #########
 
-sudo pacman -S firefox flashplugin transmission-gtk hexchat
-sudo pacman -S filezilla
-
+sudo pacman -S firefox transmission-gtk hexchat
+sudo pacman -S filezilla sshfs
 # activate multilib in the pacman.conf
 # sudo pacman -S skype
 
@@ -81,11 +80,8 @@ sudo pacman -S vlc
 #sudo pacman -S clementine
 sudo pacman -S shotwell
 
-
 ######## O F F I C E           #########
 
-sudo pacman -S geary
-sudo pacman -S evolution
 
 ######## S E T T I N G S       #########
 
@@ -117,7 +113,7 @@ sudo pacman -S qt4
 # all kind of tools to get system information
 
 sudo pacman -S scrot screenfetch git htop wget lm_sensors sysstat glances 
-sudo pacman -S numlockx inxi dmidecode hddtemp mesa-demos net-tools archey3 mlocate hardinfo
+sudo pacman -S curl numlockx inxi dmidecode hddtemp mesa-demos net-tools archey3 mlocate hardinfo
 numlockx on
 
 # if not already installed - xrandr - only for dual-screens to know how the screens are named
@@ -176,9 +172,9 @@ sudo pacman -S catfish findutils mlocate tracker strigi pinot
 
 
         # F O N T S #
-#sudo pacman -S ttf-ubuntu-font-family
-#sudo pacman -S ttf-droid
-#sudo pacman -S ttf-inconsolata
+sudo pacman -S ttf-ubuntu-font-family
+sudo pacman -S ttf-droid
+sudo pacman -S ttf-inconsolata
 sudo pacman -S ttf-google-fonts
 
         # U T I L I T I E S #

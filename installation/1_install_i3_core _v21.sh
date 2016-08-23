@@ -67,7 +67,7 @@ sudo pacman -S xorg-server xorg-server-utils xorg-xinit xorg-twm xterm
 # linux kernels seem to support many graphicacl hardware.
 # Test out and if needed install any proprietary drivers from nvidia or ati.
 
-# sudo pacman -S nvidia-340xx
+sudo pacman -S nvidia-340xx
 
 ########################################
 ########        C O R E        #########
@@ -179,16 +179,6 @@ echo "i3 blocks"
 echo "################################################################"
 
 packer i3blocks --noedit
-
-
-echo "################################################################"
-echo "i 3 with gaps next git - Remove xcb-util-cursor -- yes"
-echo "i 3 with gaps next git - Remove i3wm -- yes"
-echo "################################################################"
-
-# i3 with gaps between windows
-
-packer i3-gaps-next-git --noedit
 
 
 echo "################################################################"
